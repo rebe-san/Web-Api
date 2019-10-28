@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+  
+#container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+
+}
+  .card{
+    width: 25vw;  
+    margin: 0.5rem;
+    border-radius: 8px;
+    padding: 1rem;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);    
+  }
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 75vw;  
+    }
+  } 
+ 
